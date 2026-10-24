@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Maverick Jay E. Cutanda – Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e0c0b;--panel:#17130f;--ink:#ece3d2;--mute:#a79c88;--red:#c1272d;--paper:#d9c7a3;--paper-ink:#2a1e12;--line:#2c241c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0c0b}}
+:root[data-theme="dark"]{--bg:#0e0c0b}
+html{scroll-padding-top:env(safe-area-inset-top,0px);color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 'Newsreader',Georgia,serif}
+h1,h2,h3{font-family:'Archivo Black',Impact,sans-serif;font-weight:400;line-height:1;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.top{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:40px;align-items:end}.me{width:100%;height:auto;display:block;border:1px solid var(--line);border-bottom:4px solid var(--red)}
+header{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(44px,9vw,104px);letter-spacing:-.02em}
+h1 span{color:var(--red)}
+.lede{max-width:56ch;color:var(--mute);margin:22px 0 0;font-size:20px}
+section{padding:64px 0}
+h2{font-size:clamp(30px,5vw,52px);margin-bottom:28px}
+.hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:40px;align-items:start}
+.hero img{width:100%;height:auto;display:block;border:1px solid var(--line)}
+.tag{display:inline-block;background:var(--red);color:#fff;font:14px/1 'Archivo Black',sans-serif;padding:7px 10px;margin-bottom:16px}
+.quote{font-style:italic;font-size:26px;line-height:1.3;border-left:4px solid var(--red);padding-left:18px;margin:22px 0}
+.stack{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0;padding:0;list-style:none}
+.stack li{border:1px solid var(--mute);padding:4px 12px;border-radius:99px;font-size:16px}
+.did{background:var(--panel);border:1px solid var(--line);padding:18px 20px;margin-top:22px}
+.did b{font-family:'Archivo Black',sans-serif;font-weight:400}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:44px}
+.note{background:var(--paper);color:var(--paper-ink);padding:22px;transform:rotate(-.6deg);box-shadow:0 8px 24px #0008}
+.note:nth-child(2){transform:rotate(.7deg)}
+.note h3{font-size:22px;margin-bottom:10px;color:#7a1419}
+.note p,.note li{font-size:17px;margin:0}
+.note ul{margin:0;padding-left:20px}
+.plot{margin-top:44px}
+.plot h3{font-size:28px;margin-bottom:18px}
+.plot ol{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.plot li{counter-increment:s;border-top:3px solid var(--red);padding-top:12px}
+.plot li::before{content:counter(s);font:30px 'Archivo Black',sans-serif;color:var(--red);display:block}
+.plot strong{display:block;font-size:20px}
+.plot span{color:var(--mute);font-size:16px}
+.small{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:40px;align-items:center}
+.small img{width:100%;height:auto;display:block;border:1px solid var(--line);image-rendering:auto}
+.small p{margin:0 0 14px}
+.projects{padding-bottom:0}.plist{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}.pcard{display:block;color:inherit;text-decoration:none;background:var(--panel);border:1px solid var(--line);padding:24px;border-top:4px solid var(--mute)}.pcard.big{border-top-color:var(--red)}.pcard h3{font-size:28px;margin:0 0 10px}.pcard p{margin:0 0 12px;color:var(--mute);font-size:17px}.pcard .stack{margin:0}.pcard:hover,.pcard:focus-visible{background:#1f1913;outline:none}.pcard:focus-visible{box-shadow:0 0 0 2px var(--red)}
+.about{padding-bottom:0}.about p{max-width:62ch;margin:0 0 16px}
+.contact a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--red)}.contact a:hover,.contact a:focus-visible{color:#fff;outline:none}.contact dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:10px 24px;font-size:22px}.contact dt{color:var(--mute)}.contact dd{margin:0;overflow-wrap:anywhere}
+footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--mute);font-size:16px}
+@media(max-width:760px){.top{grid-template-columns:1fr}.me{max-width:260px}.hero,.small{grid-template-columns:1fr}.small img{order:-1}}
+</style></head><body>
+<header><div class="wrap top">
+<div>
+<h1>Maverick Jay<br><span>E. Cutanda</span></h1>
+<p class="lede">Game developer who builds the logic behind the play: AI, mechanics and game functions. My biggest project so far is a horror game rooted in the folklore of Cebu.</p>
+</div>
+<img class="me" alt="Portrait of Maverick Jay E. Cutanda in a black suit and tie" src="maverick-portrait.jpg">
+</div></header>
+
+<main>
+<section class="about"><div class="wrap">
+<h2>About me</h2>
+<p>I’m Maverick Jay E. Cutanda, a game developer who likes the part of a game players never see: how enemies think, how mechanics fit together, and how every function makes the world react. I work in Roblox Studio and write my game logic in JavaScript, with JSON to organize game data.</p>
+<p>My biggest project, Sigbin Hunt, grew from wanting to make a horror game that feels local. Instead of borrowing monsters from elsewhere, I built the game around the Sigbin, a creature from Visayan folklore, and let its legends shape how the game plays. For that project I built the AI, the mechanics and the game functions.</p>
+<p>I also made BoxHead Zombie, a 2D zombie survival game, where I focused on keeping the action fun and interactive. I’m always looking for the next project that lets me turn an idea into something people can play.</p>
+</div></section>
+
+<section class="projects"><div class="wrap">
+<h2>Projects</h2>
+<div class="plist">
+<a class="pcard big" href="#sigbin"><span class="tag">Biggest project</span><h3>Sigbin Hunt</h3><p>A 3D first-person horror investigation game set in a barangay in Naga, Cebu, built around Visayan folklore. Investigate, craft a weapon, kill the Sigbin and escape before sunrise.</p><ul class="stack"><li>Roblox Studio</li><li>JavaScript</li><li>JSON</li></ul></a>
+<a class="pcard" href="#boxhead"><h3>BoxHead Zombie</h3><p>A fun and interactive 2D zombie survival game played in a walled arena.</p></a>
+</div></div></section>
+
+<section id="sigbin"><div class="wrap">
+<h2>Sigbin Hunt</h2>
+<div class="hero">
+<img alt="Sigbin Hunt story overview: the farm, the forest trail, the Sigbin and the barangay at night" src="sigbin-hunt-story.jpg">
+<div>
+<span class="tag">Biggest project</span>
+<p>A 3D first-person horror investigation game. You are sent to a remote barangay in Naga, Cebu to look into missing livestock and unexplained disappearances. The trail leads from a farm, through a forest, to the creature's lair. There you find proof that a Sigbin, a creature from Visayan folklore, is behind it.</p>
+<p>From there you gather materials, craft a weapon that can hurt it, corner and kill it, then escape the barangay before sunrise.</p>
+<p>I wanted to build a horror game rooted in Cebuano and Visayan culture. The Sigbin's own folklore drives the mechanics: its weakness to salt and garlic and its elusiveness shape the investigation, crafting and confrontation.</p>
+<div class="quote">“Some legends aren’t just stories… they’re warnings.”</div>
+<ul class="stack"><li>Roblox Studio</li><li>JavaScript</li><li>JSON</li></ul>
+<div class="did"><b>What I built:</b> the enemy AI, the game mechanics and the game functions.</div>
+</div></div>
+
+<div class="notes">
+<div class="note"><h3>Background</h3><p>For generations, the people of Barangay Uling believed in a hidden creature that stalks the forests at night and punishes those who disrespect nature. Lately, livestock have been found dead, villagers are missing, and eerie howls come from the dark.</p></div>
+<div class="note"><h3>Setting</h3><ul><li>The Farm</li><li>The Forest Trail</li><li>The Sigbin’s Lair</li><li>Rural houses</li><li>Rivers and hills</li></ul></div>
+<div class="note"><h3>Theme and conflict</h3><p>Survival, folklore, mystery and fear, with respect for nature and tradition at the centre. It is you against the Sigbin: wit, courage and survival.</p></div>
+</div>
+
+<div class="plot"><h3>The mission</h3>
+<ol>
+<li><strong>Investigate the farm</strong><span>Gather clues and talk to locals.</span></li>
+<li><strong>Enter the forest</strong><span>Track the strange disturbances and follow the trail.</span></li>
+<li><strong>Confront the Sigbin</strong><span>Craft tools from Filipino folklore items such as asin and bawang.</span></li>
+<li><strong>Escape before sunrise</strong><span>Defeat or outsmart it and leave the barangay before day breaks.</span></li>
+</ol></div>
+</div></section>
+
+<section id="boxhead" style="border-top:1px solid var(--line)"><div class="wrap">
+<h2>BoxHead Zombie</h2>
+<div class="small">
+<div>
+<p>A fun and interactive 2D zombie survival game. You play as an armed survivor in a walled arena, using the obstacles for cover while waves of zombies close in.</p>
+<p>Every character carries a health bar, so you can see at a glance how close you or a zombie is to going down. The layout rewards positioning: walls break up the arena, so you have to decide when to hold ground and when to move.</p>
+</div>
+<img alt="BoxHead Zombie gameplay: two survivors and zombies in a walled arena" src="boxhead-zombie.jpg">
+</div></div></section>
+<section class="contact" style="border-top:1px solid var(--line)"><div class="wrap">
+<h2>Contact me</h2>
+<dl><dt>Email</dt><dd><a href="mailto:maverickcutanda0911@gmail.com">maverickcutanda0911@gmail.com</a></dd><dt>Phone</dt><dd><a href="tel:+639275349501">0927 534 9501</a></dd></dl>
+</div></section>
+</main>
+<footer><div class="wrap">Maverick Jay E. Cutanda</div></footer>
+</body></html>
